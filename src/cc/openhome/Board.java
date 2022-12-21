@@ -1,5 +1,6 @@
 //author : JIN HAO LU
-//date : 2022/12/17
+//initial version date : 2021/01/27
+//revision date : 2022/12/17
 
 package cc.openhome;
 
@@ -126,7 +127,6 @@ public class Board extends JPanel implements MouseListener , ActionListener{
 
 			Point position = e.getLocationOnScreen();
 			getAbsolutePosition(position.x , position.y - 40);//get location on screen, but frame take 40, so I minus it to get more accuray.
-			System.out.println(position.x + " " + (position.y - 40) );
 		}
 
 	@Override
